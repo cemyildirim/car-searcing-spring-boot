@@ -1,0 +1,12 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:us="http://spring.io/guides/gs-producing-web-service"
+>
+
+<soapenv:Header/>
+<soapenv:Body>
+    <us:getCarRequest>
+        <us:searchCriteria>HEPSİ</us:searchCriteria>
+        <us:searchKey>AUDİ</us:searchKey>
+    </us:getCarRequest>
+</soapenv:Body>
+</soapenv:Envelope>
